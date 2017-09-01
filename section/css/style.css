@@ -1,0 +1,41 @@
+body{
+    font-size: 12px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.content{
+    -webkit-flex: 1;
+    overflow-y: scroll;
+}
+
+.box{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.line{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 3px #ccc;
+    border-radius: 10px;
+}
+.line h3 {
+    background: #FD6060;
+    line-height: 66px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+.color{
+    color: green;
+}
+.line p{
+    line-height: 26px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
